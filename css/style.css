@@ -751,46 +751,38 @@ h3.my-profession
     display: block;
 }
 
-/* contact*/
-
-.contact-title
-{
+/* contact section */
+.contact-title {
     color: var(--skin-color);
     text-align: center;
     font-size: 25px;
-    margin-bottom: 20px; 
-
+    margin-bottom: 20px;
 }
 
-.contact-sub-title
-{
+.contact-sub-title {
     color: var(--text-black-900);
     text-align: center;
     font-size: 15px;
     margin-bottom: 60px;
-
 }
 
-.contact .contact-info-item
-{
+.contact .contact-info-item {
     flex: 0 0 25%;
     max-width: 25%;
     text-align: center;
     margin-bottom: 60px;
 }
 
-.contact .contact-info-item .icon
-{
+.contact .contact-info-item .icon {
     display: inline-block;
 }
 
-.contact .contact-info-item .icon .fa
-{
-    font-size:25px ;
+.contact .contact-info-item .icon .fa {
+    font-size: 25px;
     color: var(--skin-color);
 }
-.contact .contact-info-item h4
-{
+
+.contact .contact-info-item h4 {
     font-size: 18px;
     font-weight: 700;
     color: var(--text-black-900);
@@ -798,41 +790,33 @@ h3.my-profession
     margin: 15px 0 5px;
 }
 
-.contact .contact-info-item p
-{
+.contact .contact-info-item p {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
     font-weight: 400;
-
 }
 
-.contact .contact-form
-{
+.contact .contact-form {
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-.contact .contact-form .col-6
-{
+.contact .contact-form .col-6 {
     flex: 0 0 50%;
     max-width: 50%;
-
 }
 
-.contact .contact-form .col-12
-{
+.contact .contact-form .col-12 {
     flex: 0 0 100%;
     max-width: 100%;
 }
 
-.contact .contact-form  .form-item
-{
+.contact .contact-form .form-item {
     margin-bottom: 30px;
 }
 
-.contact .contact-form  .form-item .form-control
-{
+.contact .contact-form .form-item .form-control {
     width: 100%;
     height: 50px;
     border-radius: 25px;
@@ -842,89 +826,52 @@ h3.my-profession
     font-size: 16px;
     color: var(--text-black-700);
     transition: all 0.3s ease;
-
 }
 
-.contact .contact-form .form-item .form-control:focus
-{
+.contact .contact-form .form-item .form-control:focus {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
-.contact .contact-form .form-item textarea.form-control
-{
+.contact .contact-form .form-item textarea.form-control {
     height: 140px;
 }
 
+.contact .contact-info-item .icon .fa-brands.fa-linkedin {
+    font-size: 25px;
+    color: #00a8e8;
+}
 
-.contact .contact-form .btn
-{
+.contact .contact-form .btn {
     height: 50px;
     padding: 0 50px;
+    background-color: var(--skin-color);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-@media (max-width:1199px)
-{
-    .section .container
-    {
+.contact .contact-form .btn:hover {
+    background-color: var(--skin-color-hover);
+}
+
+@media (max-width: 1199px) {
+    .section .container {
         padding-top: 70px;
     }
-    .aside {
-        left: -270px;
-    }
-
-    .aside.open
-    {
-        left: 0;
-    }
-
-
-    .aside .nav-toggler {
-        display: flex;
-        left: 30px;
-    }
-    .aside .nav-toggler.aside.open{
-        left: 300px;
-    }
-
-    .section {
-        left: 0;
-    }
-    .section.open 
-    {
-        left: 270px;
-    }
-    .about .about-content .personal-info .info-item p span
-    {
-        display: block;
-        margin: left;
-    };
 }
 
-@media (max-width:991px)
-{
+@media (max-width: 991px) {
     .contact .contact-info-item,
     .portfolio .portfolio-item,
-    .service .service-item
-    {
+    .service .service-item {
         flex: 0 0 50%;
         max-width: 50%;
-
     }
-    
-    .home .home-info
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .home .home-img
-    {
-        display: none;
-}
-   
 }
 
-@media (max-width:767px)
-{
+@media (max-width: 767px) {
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -932,13 +879,11 @@ h3.my-profession
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
-    .about .about-content .personal-info
-    {
+    .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
-
 
 
 
